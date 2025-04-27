@@ -167,13 +167,13 @@ require('lazy').setup({
   'vmware-archive/salt-vim',
   'akinsho/toggleterm.nvim', -- Toggle terminal vim
   'jpalardy/vim-slime', -- a vim plugin to give you some slime
-  'github/copilot.vim', -- the original ai editor
   {
     'saecki/crates.nvim',
     tag = 'stable',
     opts = {},
   },
   'vimwiki/vimwiki',
+  'github/copilot.vim',
   'mbbill/undotree',
   'lepture/vim-jinja',
   'kshenoy/vim-signature',
