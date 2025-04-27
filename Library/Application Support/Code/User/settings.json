@@ -1,0 +1,75 @@
+{
+  "security.workspace.trust.enabled": false,
+  "diffEditor.renderSideBySide": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.inlineSuggest.enabled": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSaveWhenNoErrors": false,
+  "files.autoSaveDelay": 3000,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.mergeEditor": false,
+  "jupyter.askForKernelRestart": false,
+  "jupyter.widgetScriptSources": [
+    "jsdelivr.com",
+    "unpkg.com"
+  ],
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "basedpyright.analysis.autoImportCompletions": "true",
+  "basedpyright.analysis.diagnosticMode": "workspace",
+  "basedpyright.analysis.inlayHints.callArgumentNames": false,
+  "basedpyright.analysis.inlayHints.functionReturnTypes": false,
+  "basedpyright.analysis.inlayHints.variableTypes": false,
+  "basedpyright.analysis.stubPath": "./typings",
+  "basedpyright.analysis.typeCheckingMode": "basic",
+  "basedpyright.analysis.useLibraryCodeForTypes": "true",
+  "python.analysis.autoImportCompletions": "true",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.inlayHints.callArgumentNames": false,
+  "python.analysis.inlayHints.functionReturnTypes": false,
+  "python.analysis.inlayHints.variableTypes": false,
+  "python.analysis.stubPath": "./typings",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.useLibraryCodeForTypes": "true",
+  "python.globalModuleInstallation": true,
+  "python.languageServer": "None",
+  "python.formatting.provider": "black",
+  "python.sortImports.args": [
+    "--profile",
+    "black"
+  ],
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.terminal.focusAfterLaunch": true,
+  "terminal.integrated.inheritEnv": true,
+  "trailing-spaces.trimOnSave": true,
+  "trailing-spaces.syntaxIgnore": [
+    "yaml"
+  ],
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.telemetryLevel": "off",
+  "redhat.telemetry.enabled": false,
+  "vim.disableExtension": false,
+  "vim.enableNeovim": true,
+  "vim.handleKeys": {
+    "<C-f>": false,
+    "<C-h>": false
+  },
+  "vim.useSystemClipboard": true,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.useSplitJSON": true,
+  "editor.dropIntoEditor.enabled": true,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.foldedCodeExpand": false
+}
