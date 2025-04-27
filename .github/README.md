@@ -33,6 +33,7 @@ That's it! You can now start using this repository as your home folder.
 - [Neovim](https://github.com/neovim/neovim): I try to keep this config the same as the one in [home](https://github.com/flaport/home).
 - [Simple Bar](https://github.com/Jean-Tinland/simple-bar): a status bar for Yabai so i can see my workspaces.
 - [Skhd](https://github.com/koekeishiya/skhd): hotkey daemon. Works great with Yabai.
+- [VSCode](https://github.com/microsoft/vscode): the other editor.
 - [Yabai](https://github.com/koekeishiya/yabai): the best window manager for MacOS (I do miss my dear [DWM](https://github.com/flaport/dwm) fork though 😢)
 - [Zsh](https://github.com/zsh-users/zsh): The only decent bash replacement.
 - ... probably more to come.
