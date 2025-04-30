@@ -1,5 +1,5 @@
 # Opening apps
-alt - return : open -a /Applications/Ghostty.app
+alt - return : osascript ~/.scripts/new_terminal.scpt
 alt - q : osascript -e 'tell application "System Events" to keystroke "w" using command down'
 
 # focus window
