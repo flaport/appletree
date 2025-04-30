@@ -8,7 +8,7 @@ alt - k : yabai -m window --focus prev
 alt - j : yabai -m window --focus next
 
 # swap window
-shift + alt - space : yabai -m window --swap west # swap with "main" tile (simply swap it west)
+alt - space : yabai -m window --swap west # swap with "main" tile (simply swap it west)
 shift + alt - j : yabai -m window --swap prev
 shift + alt - k : yabai -m window --swap next
 
