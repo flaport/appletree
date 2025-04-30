@@ -38,55 +38,9 @@
         },
         {
             "command": "notebook:run-cell",
-            "selector": ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus",
-            "disabled": true,
-            "keys": [
-                "Accel Enter"
-            ]
-        },
-        {
-            "command": "notebook:run-cell",
-            "selector": ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus",
-            "keys": [
-                "Ctrl Enter"
-            ]
-        },
-        {
-            "command": "notebook:run-cell",
-            "selector": ".jp-Notebook.jp-mod-editMode",
-            "disabled": true,
-            "keys": [
-                "Accel Enter"
-            ]
-        },
-        {
-            "command": "notebook:run-cell",
             "selector": ".jp-Notebook.jp-mod-editMode",
             "keys": [
                 "Ctrl Enter"
-            ]
-        },
-        {
-            "command": "notebook:run-cell-and-insert-below",
-            "selector": ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus",
-            "disabled": true,
-            "keys": [
-                "Alt Enter"
-            ]
-        },
-        {
-            "command": "notebook:run-cell-and-insert-below",
-            "selector": ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus",
-            "keys": [
-                "Accel Enter"
-            ]
-        },
-        {
-            "command": "notebook:run-cell-and-insert-below",
-            "selector": ".jp-Notebook.jp-mod-editMode",
-            "disabled": true,
-            "keys": [
-                "Alt Enter"
             ]
         },
         {
