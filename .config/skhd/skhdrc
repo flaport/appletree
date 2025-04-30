@@ -1,6 +1,6 @@
 # Opening apps
 alt - return : osascript ~/.scripts/new_terminal.scpt
-alt - q : osascript -e 'tell application "System Events" to keystroke "w" using command down'
+alt - w : osascript ~/.scripts/new_browser.scpt
 
 # focus window
 # here the || was added so the selection cycles and doesn't stop at the end or beginning
