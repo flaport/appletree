@@ -1117,7 +1117,7 @@ c.Authenticator.allow_existing_users = True
 #  .. versionchanged:: 1.2
 #      `Authenticator.whitelist` renamed to `allowed_users`
 #  Default: set()
-c.Authenticator.allowed_users = set(os.listdir("/home"))
+c.Authenticator.allowed_users = set(os.listdir("/Users"))
 
 ## Is there any allow config?
 #
@@ -1386,7 +1386,7 @@ c.DummyAuthenticator.allow_existing_users = True
 
 ##
 #  See also: Authenticator.allowed_users
-c.DummyAuthenticator.allowed_users = set(os.listdir("/home"))
+c.DummyAuthenticator.allowed_users = set(os.listdir("/Users"))
 
 ## Is there any allow config?
 #  See also: Authenticator.any_allow_config
