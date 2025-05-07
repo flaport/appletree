@@ -15,8 +15,10 @@ map('n', '<leader>.', ':MtaJumpToOtherTag<cr>', opts)
 vim.keymap.set('n', '<leader>cc', function()
   if vim.o.background == 'dark' then
     vim.o.background = 'light'
+    vim.cmd.colorscheme 'PaperColor'
   else
     vim.o.background = 'dark'
+    vim.cmd.colorscheme 'catppuccin'
   end
 end, opts)
 
