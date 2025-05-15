@@ -19,6 +19,8 @@ sourcefile $HOME/.zshrc2
 autoload -U colors && colors
 
 # better tab-completion
+mkdir -p ~/.zfunc
+fpath+=~/.zfunc
 autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
@@ -232,4 +234,3 @@ if which uv > /dev/null 2> /dev/null; then
   eval "$(uv generate-shell-completion zsh)"
 fi
 
-fpath+=~/.zfunc; autoload -Uz compinit; compinit
