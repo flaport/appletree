@@ -47,7 +47,7 @@
             "command": "notebook:run-cell-and-insert-below",
             "selector": ".jp-Notebook.jp-mod-editMode",
             "keys": [
-                "Accel Enter"
+                "Ctrl Shift Enter"
             ]
         }
     ]

@@ -1,11 +1,14 @@
 #!/bin/sh
 uv tool install jupyterlab \
+  --with pyright \
+  --with ruff \
+  --with ruff-lsp \
+  --with uv \
   --with jupyter-bokeh \
   --with jupyterlab-code-formatter \
   --with jupyterlab-git \
   --with jupyterlab-hdf \
   --with jupyterlab-lsp \
-  --with jupyterlab-myst \
   --with jupyterlab-myst \
   --with pyright \
   --with jupyterlab-vim \
