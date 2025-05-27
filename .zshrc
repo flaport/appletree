@@ -2,6 +2,7 @@
 
 ## General settings
 #-------------------------------------------------------------------------------
+source $HOME/.profile
 export PATH="$HOME/.local/bin:$PATH"
 alias ls=lsd
 alias vim=nvim
