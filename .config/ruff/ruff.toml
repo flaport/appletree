@@ -1,0 +1,34 @@
+fix = true
+target-version = "py312"
+
+[format]
+docstring-code-format = true
+
+[lint] # see https://docs.astral.sh/ruff/rules
+ignore = [
+    "PTH",
+    "FIX",
+    "ERA",
+    "COM812",
+    "TD001",
+    "TD002",
+    "TD003",
+    "TID252",
+    "S101",
+    "PLR0915",
+    "PLR0912",
+    "C901",
+    "ANN401",
+    "ARG001",
+    "PLR0913",
+    "G004",
+    "S607",
+    "S602",
+    "S603",
+    "TC002",
+]
+exclude = ["docs/*", "assets/*"]
+select = ["ALL"]
+
+[lint.pydocstyle]
+convention = "google"
