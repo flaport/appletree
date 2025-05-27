@@ -7,7 +7,6 @@ uv tool install jupyterlab \
   --with jupyter-bokeh \
   --with jupyterlab-code-formatter \
   --with jupyterlab-git \
-  --with jupyterlab-hdf \
   --with jupyterlab-lsp \
   --with jupyterlab-myst \
   --with python-lsp-ruff \
