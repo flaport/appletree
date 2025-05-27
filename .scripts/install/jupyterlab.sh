@@ -2,14 +2,17 @@
 uv tool install jupyterlab \
   --with pyright \
   --with ruff \
-  --with ruff-lsp \
   --with uv \
+  --with jupyter-lsp \
   --with jupyter-bokeh \
   --with jupyterlab-code-formatter \
   --with jupyterlab-git \
   --with jupyterlab-hdf \
   --with jupyterlab-lsp \
   --with jupyterlab-myst \
+  --with python-lsp-ruff \
+  --with python-lsp-server[all] \
+  --with yaml-lsp \
   --with pyright \
   --with jupyterlab-vim \
   --with myst-nb \
