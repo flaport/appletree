@@ -1,8 +1,15 @@
 c = get_config()  # noqa
 
-ENABLED = ["pyright"]
+ENABLED = ["relay"]
 
 LANGUAGE_SERVERS = {
+    "relay": {
+        "version": 2,
+        "argv": ["/Users/flaport/.local/bin/relaylsp"],
+        "languages": ["python"],
+        "mime_types": ["text/python", "text/ipython"],
+        "display_name": "relay",
+    },
     "ruff": {
         "version": 2,
         "argv": ["/opt/homebrew/bin/ruff", "server"],
