@@ -1,6 +1,6 @@
 c = get_config()  # noqa
 
-ENABLED = ["relay"]
+ENABLED = ["pyright"]
 
 LANGUAGE_SERVERS = {
     "relay": {
@@ -31,3 +31,5 @@ c.LanguageServerManager.autodetect = False
 c.LanguageServerManager.language_servers = {
     k: v for k, v in LANGUAGE_SERVERS.items() if k in ENABLED
 }
+
+c.ServerApp.token = ""  # disable token auth
