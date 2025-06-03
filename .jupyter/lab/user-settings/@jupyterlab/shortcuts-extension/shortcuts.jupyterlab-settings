@@ -37,6 +37,15 @@
             "args": {}
         },
         {
+            "command": "jupyterlab_code_formatter:format",
+            "keys": [
+                "Ctrl J",
+                "Ctrl J"
+            ],
+            "selector": ".jp-Notebook.jp-mod-editMode",
+            "args": {}
+        },
+        {
             "command": "notebook:run-cell",
             "selector": ".jp-Notebook.jp-mod-editMode",
             "keys": [
