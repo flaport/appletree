@@ -3,6 +3,9 @@ uv tool install jupyterlab \
   --with pyright \
   --with ruff \
   --with uv \
+  --with ipywidgets \
+  --with ipympl \
+  --with ipycanvas \
   --with jupyter-lsp \
   --with jupyter-bokeh \
   --with jupyterlab-code-formatter \
