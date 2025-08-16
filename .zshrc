@@ -8,6 +8,12 @@ alias ls=lsd
 alias vim=nvim
 export LANG=en_US.UTF-8
 
+# Simplify prompt in Cursor (VS Code) to fix AI assistant detection
+if [[ "$TERM_PROGRAM" == "vscode" ]]; then
+  export PS1='%~ %# '
+  return
+fi
+
 # source function (ignore file if file does not exist)
 function sourcefile {
   [[ -f "$1" ]] && source "$1"
