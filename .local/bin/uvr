@@ -1,2 +1,2 @@
 #!/bin/sh
-uv run "$@"
+uv run --no-sync "$@"
